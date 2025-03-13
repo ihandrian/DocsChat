@@ -59,7 +59,7 @@ This application allows you to upload various document types (PDF, DOCX, CSV, XL
     ```shellscript
     cp .env.example .env
     ```
-    # Edit `.env` with your Hugging Face API key
+    Edit `.env` with your Hugging Face API key
 
     ```plaintext
     HUGGINGFACEHUB_API_TOKEN=your_token_here
