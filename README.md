@@ -29,18 +29,18 @@ This application allows you to upload various document types (PDF, DOCX, CSV, Ex
     ```sh
     python -m venv DocsChat
     ```
-- **Activate**:
-  - **Windows**:
+  - **Activate**:
+    - **Windows**:
+      ```sh
+      DocsChat\Scripts\activate
+      ```
+    - **Linux/macOS**:
+      ```sh
+      source DocsChat/bin/activate
+      ```
+  - **Deactivate**:
     ```sh
-    DocsChat\Scripts\activate
-    ```
-  - **Linux/macOS**:
-    ```sh
-    source DocsChat/bin/activate
-    ```
-- **Deactivate**:
-  ```sh
-  deactivate
+    deactivate
 
 4. Install the required dependencies:
 
@@ -56,20 +56,20 @@ pip install -r requirements.txt
 
 6. Create a `.env` file with your Hugging Face API token:
 
-```shellscript
-cp .env.example .env
-# Edit .env with your Hugging Face API key
-```
-```plaintext
-HUGGINGFACEHUB_API_TOKEN=your_token_here
-```
+    ```shellscript
+    cp .env.example .env
+    # Edit .env with your Hugging Face API key
+    ```
+    ```plaintext
+    HUGGINGFACEHUB_API_TOKEN=your_token_here
+    ```
 
 
 7. Run the application:
 
-```shellscript
-streamlit run app.py
-```
+    ```shellscript
+    streamlit run app.py
+    ```
 
 
 
