@@ -1,6 +1,6 @@
 # Document Analysis Assistant
 
-This application allows you to upload various document types (PDF, DOCX, CSV, Excel), process them, and interact with them in multiple ways:
+This application allows you to upload various document types (PDF, DOCX, CSV, XLS, EPUB, DJVU), process them, and interact with them in multiple ways:
 
 1. **Chat with your documents**: Ask questions about the content of your documents
 2. **Generate summaries**: Create concise summaries of your document content
@@ -9,7 +9,7 @@ This application allows you to upload various document types (PDF, DOCX, CSV, Ex
 
 ## Features
 
-- Multi-document support (PDF, DOCX, CSV, Excel)
+- Multi-document support (PDF, DOCX, CSV, XLS, EPUB, DJVU)
 - Text extraction and processing
 - Vector embeddings for semantic search
 - Conversational AI interface
