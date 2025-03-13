@@ -5,7 +5,7 @@ This application allows you to upload various document types (PDF, DOCX, CSV, XL
 1. **Chat with your documents**: Ask questions about the content of your documents
 2. **Generate summaries**: Create concise summaries of your document content
 3. **Visualize data**: Create charts and graphs from your data files (CSV, Excel)
-4. **Local Data**: No need to upload your to internet, if it local stays local.
+4. **Local Data**: No need to upload your to internet, every local stays local.
 
 ## Features
 
