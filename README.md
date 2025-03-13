@@ -29,24 +29,24 @@ This application allows you to upload various document types (PDF, DOCX, CSV, Ex
     ```sh
     python -m venv DocsChat
     ```
-  - **Activate**:
-    - **Windows**:
+    - **Activate**:
+      - **Windows**:
+        ```sh
+        DocsChat\Scripts\activate
+        ```
+      - **Linux/macOS**:
+        ```sh
+        source DocsChat/bin/activate
+        ```
+    - **Deactivate**:
       ```sh
-      DocsChat\Scripts\activate
-      ```
-    - **Linux/macOS**:
-      ```sh
-      source DocsChat/bin/activate
-      ```
-  - **Deactivate**:
-    ```sh
-    deactivate
+      deactivate
 
 4. Install the required dependencies:
 
-```shellscript
-pip install -r requirements.txt
-```
+    ```shellscript
+    pip install -r requirements.txt
+    ```
 
 
 5. (Optional) Set up Ollama locally:
