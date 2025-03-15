@@ -89,7 +89,7 @@ This application allows you to upload various document types (PDF, DOCX, CSV, XL
 
 You can choose between:
 
-- **Hugging Face models**: Uses the google/flan-t5-xxl model by default
+- **Hugging Face models**: Uses the `google/flan-t5-xxl` model by default
 - **Local Ollama**: Check the "Use Local Ollama" box to use your local Llama2 model
 
 ## Next Steps
