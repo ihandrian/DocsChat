@@ -54,16 +54,17 @@ This application allows you to upload various document types (PDF, DOCX, CSV, XL
     - Install Ollama from [https://ollama.ai/](https://ollama.ai/)
     - Pull the llama3 model: `ollama pull llama3`
 
-6. Create a `.env` file with your Hugging Face API token:
-
-    ```shellscript
-    cp .env.example .env
-    ```
-    Edit `.env` with your Hugging Face API key
-
+6.  Edit file `.env.example`  with your Hugging Face API token:
     ```plaintext
     HUGGINGFACEHUB_API_TOKEN=your_token_here
     ```
+    rename `.env.example` into `.env`
+    ```shellscript
+    cp .env.example .env
+    ```
+
+
+
 
 
 7. Run the application:
